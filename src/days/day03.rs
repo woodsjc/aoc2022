@@ -81,7 +81,7 @@ fn calc_priority(s1: HashSet<char>, s2: HashSet<char>) -> u64 {
         } else {
             println!("Invalid input: {b}");
         }
-        println!("b:{}, u8:{}, b-'a'+1:{}", *b, *b as u8, to_add);
+        //println!("b:{}, u8:{}, b-'a'+1:{}", *b, *b as u8, to_add);
         total += to_add;
     }
 
